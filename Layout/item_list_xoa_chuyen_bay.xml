@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_item_list_xoa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_di_xoa"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_item_tgdi_xoa"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_item_xoa"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/iconmaybay1" />
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_den_xoa"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_item_tgden_xoa"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="#ff00"
+        android:id="@+id/btn_item_xoa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="xóa" />
+
+</LinearLayout>
