@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="25dp"
+            android:id="@+id/tv_time_di_tk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ Bay" />
+
+        <TextView
+            android:id="@+id/tv_diem_di_tk"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:text="Điểm bay"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="25dp"
+            android:id="@+id/tvtgiandichuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TG bay" />
+
+        <ImageView
+            android:id="@+id/img_item_list_tk"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            app:srcCompat="@drawable/iconmaybay1" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="19dp"
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Bay thẳng" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:id="@+id/tv_time_den_tk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ đến" />
+
+        <TextView
+            android:id="@+id/tv_diem_den_tk"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:text="Điểm đến"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#FF9800"
+            android:id="@+id/tv_gia_ve_tk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá vé" />
+
+        <Button
+            android:onClick="btnChonChuyenBay_onClick"
+            android:id="@+id/btn_chon_item"
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6495ED	"
+            android:text="Chọn"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

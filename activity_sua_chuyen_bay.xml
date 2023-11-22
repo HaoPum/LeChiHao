@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaChuyenBay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#CC66FF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/iconmaybay" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:paddingTop="7dp"
+            android:text="Sửa chuyến bay"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập thông tin chuyến bay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="ID: "
+            android:layout_width="50dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/tv_id_flights"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/iconmaybay1" />
+
+        <EditText
+            android:id="@+id/edt_sua_diem_di"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Nhập điểm đi"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/iconmaybay1" />
+
+        <EditText
+            android:id="@+id/edt_sua_diem_den"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Nhập điểm đến"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/icontime" />
+
+        <EditText
+            android:id="@+id/edt_sua_time_di"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Thời gian khởi hành"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/icontime" />
+
+        <EditText
+            android:id="@+id/edt_sua_time_den"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Thời gian đến dự kiến"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/iconmoney" />
+
+        <EditText
+            android:id="@+id/edt_sua_gia_ve"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Giá vé"
+            android:inputType="numberDecimal"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="#3399FF"
+        android:id="@+id/btn_sua_chuyen_bay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sửa" />
+
+    <ListView
+        android:id="@+id/lv_sua_chuyen_bay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
