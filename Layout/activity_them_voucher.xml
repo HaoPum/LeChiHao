@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemVoucher">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="#9966FF"
+            app:srcCompat="@drawable/iconvoucher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#9966FF"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="Thêm voucher"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/iconvoucherone" />
+
+        <EditText
+            android:id="@+id/ma_voucher"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Nhập mã voucher"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/iconvouchertwo" />
+
+        <EditText
+            android:id="@+id/khuyen_mai"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Nhập mức giảm %"
+            android:inputType="numberDecimal"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="#FF00FF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_them_voucher"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Tạo voucher" />
+</LinearLayout>
